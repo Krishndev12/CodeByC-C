@@ -50,3 +50,27 @@ So, even though heroes is an array, the typeof operator categorizes it as an obj
 
 console.log(typeof myFunction);
 console.log(typeof anotherid);
+
+
+
+
+// +++++++++++++++++ Stack  (Primitive),  Heap (Non-Primitive)
+
+let myYoutubename = "krish.com"
+ let anothername = myYoutubename
+
+ anothername = "chaiaurcode"
+ console.log(myYoutubename);
+  console.log(anothername);
+
+  let userOne = {
+    userEmail: "gekjkbs@gmail.com",
+    upi: "user@ybl"
+  }
+
+  let userTwo = userOne
+
+  userTwo.userEmail = "uityh@gmail.com"
+  console.log(userOne.userEmail);
+  console.log(userTwo.userEmail);
+    
