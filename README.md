@@ -1,2 +1,2 @@
 # CodeByC-C
-basic code of js by chai and code 
+basic code of js by chai and code. 
